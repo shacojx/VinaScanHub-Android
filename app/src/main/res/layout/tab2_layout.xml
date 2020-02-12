@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<ScrollView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="@android:color/black">-->
+
+    <TextView
+        android:id="@+id/tv_vuln"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:background="@android:color/black"
+        android:gravity="bottom"
+        android:hint="Vuln"
+        android:scrollbars="vertical"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+    <!--</ScrollView>-->
+
+</LinearLayout>
